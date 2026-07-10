@@ -5,7 +5,7 @@ public class User {
     private String name;
     private String email;
     private String password;
-    private String role;
+    private String rol;
     private String createdAt;
 
     public String getCreatedAt() {
