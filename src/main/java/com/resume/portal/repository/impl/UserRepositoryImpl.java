@@ -8,4 +8,3 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserRepositoryImpl extends JpaRepository<User, Long> {
 }
-//test for myself

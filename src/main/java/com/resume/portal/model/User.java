@@ -26,9 +26,10 @@ public class User {
     private String password;
     private String phone;
     private accountType accountType;
+    private Long profileId;
 
     public UserDTO toDTO() {
-        return new UserDTO(this.id, this.name, this.email, this.password, this.phone, this.accountType);
+        return new UserDTO(this.id, this.name, this.email, this.password, this.phone, this.accountType,this.profileId);
     }
 }
 

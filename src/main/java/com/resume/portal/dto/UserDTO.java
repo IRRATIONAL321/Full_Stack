@@ -15,9 +15,10 @@ public class UserDTO {
     private String password;
     private String phone;
     private accountType accountType;
+    private Long profileId;
 
     public User toEntity() {
-        User user = new User(this.id, this.name, this.email, this.password, this.phone, this.accountType);
+        User user = new User(this.id, this.name, this.email, this.password, this.phone, this.accountType,this.profileId);
 
         return user;
     }
